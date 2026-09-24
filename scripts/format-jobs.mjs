@@ -49,7 +49,7 @@ function parseRow(line) {
 
 function formatRow(row) {
   if (row.kind === 'link') {
-    return `| [${row.name}](${row.url}) | ${row.url} |`;
+    return `| [${row.name}](${row.url}) | <${row.url}> |`;
   }
   return `| ${row.cells.join(' | ')} |`;
 }
