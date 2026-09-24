@@ -91,6 +91,26 @@ function compareNames(a, b) {
   return a.name.toLowerCase().localeCompare(b.name.toLowerCase(), 'en');
 }
 
+const STAMP_RE = /^Last updated: .+$/;
+
+function utcStamp(date = new Date()) {
+  const y = date.getUTCFullYear();
+  const m = String(date.getUTCMonth() + 1).padStart(2, '0');
+  const d = String(date.getUTCDate()).padStart(2, '0');
+  const hh = String(date.getUTCHours()).padStart(2, '0');
+  const mm = String(date.getUTCMinutes()).padStart(2, '0');
+  return `Last updated: ${y}-${m}-${d} ${hh}:${mm} UTC`;
+}
+
+function stripStamp(content) {
+  return content
+    .split('\n')
+    .filter((l) => !STAMP_RE.test(l.trim()))
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .replace(/\n*$/, '\n');
+}
+
 // Parse title
 let i = skipBlank(0);
 const titleLines = [];
@@ -100,6 +120,14 @@ while (i < lines.length && lines[i].startsWith('# ')) {
 }
 const title = titleLines[0] ?? '# Remote Jobs';
 
+i = skipBlank(i);
+
+// Parse existing "Last updated" line
+let lastUpdated = null;
+if (i < lines.length && STAMP_RE.test(lines[i].trim())) {
+  lastUpdated = lines[i].trim();
+  i++;
+}
 i = skipBlank(i);
 
 // Skip existing TOC (line starting with '[')
@@ -147,11 +175,15 @@ for (const s of sections) {
   for (const extra of s.extras) out.push(extra);
 }
 
-const result = out.join('\n').replace(/\n{3,}/g, '\n\n').replace(/\n*$/, '\n');
+const body = out.join('\n').replace(/\n{3,}/g, '\n\n').replace(/\n*$/, '\n');
+const rawNorm = raw.replace(/\r\n/g, '\n');
+const bodyChanged = body !== stripStamp(rawNorm);
+const stamp = bodyChanged || !lastUpdated ? utcStamp() : lastUpdated;
+const result = body.replace(/^([^\n]+\n\n)/, `$1${stamp}\n\n`);
 
-if (result !== raw.replace(/\r\n/g, '\n')) {
+if (result !== rawNorm) {
   writeFileSync(file, result, 'utf8');
-  console.log('Formatted jobs.md');
+  console.log(`Formatted jobs.md (${stamp})`);
 } else {
-  console.log('jobs.md already formatted');
+  console.log(`jobs.md already formatted (${stamp})`);
 }

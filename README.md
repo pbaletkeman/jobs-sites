@@ -47,11 +47,12 @@ It rewrites `jobs.md` to:
 - Sort rows alphabetically by site name
 - Rebuild the letter table of contents
 - Normalize table syntax and sync plain URLs with link URLs
+- Update the `Last updated:` line under the title (UTC) whenever the file changes
 - Use LF line endings
 
 ### CI
 
-The [Format markdown](.github/workflows/format-markdown.yml) GitHub Action runs on pushes to `main` and on pull requests that touch `**.md`. It runs the formatter and, if anything changed, commits `style: format jobs.md [skip ci]` back to the branch.
+The [Format markdown](.github/workflows/format-markdown.yml) GitHub Action runs on pushes to `main` and on pull requests that touch `**.md`. It runs the formatter and, if anything changed (including a missing or stale `Last updated:` line), commits `style: format jobs.md [skip ci]` back to the branch.
 
 Pull requests from forks cannot be pushed to by the action — those fail the check with a diff. Run `node scripts/format-jobs.mjs` and push the result to fix them.
 
