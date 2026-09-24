@@ -74,6 +74,7 @@ Last updated: 2026-09-24 15:37 UTC
 
 | Site | URL |
 | --- | --- |
+| [GigWalk](gigwalk.com) | https://gigwalk.com |
 | [GitHub](https://www.github.careers/careers-home) | https://www.github.careers/careers-home |
 | [GitLab](https://about.gitlab.com/jobs/all-jobs/) | https://about.gitlab.com/jobs/all-jobs/ |
 | [Google](https://www.google.com/about/careers/applications/) | https://www.google.com/about/careers/applications/ |
@@ -126,6 +127,7 @@ Last updated: 2026-09-24 15:37 UTC
 | Site | URL |
 | --- | --- |
 | [Netlify](https://www.netlify.com/careers/) | https://www.netlify.com/careers/ |
+| [NoDesk](nodesk.co) | https://nodesk.co |
 | [Notion](https://www.notion.com/careers) | https://www.notion.com/careers |
 | [NVIDIA](https://www.nvidia.com/en-us/about-nvidia/careers/) | https://www.nvidia.com/en-us/about-nvidia/careers/ |
 
@@ -155,7 +157,11 @@ Last updated: 2026-09-24 15:37 UTC
 | --- | --- |
 | [Red Hat](https://www.redhat.com/en/jobs) | https://www.redhat.com/en/jobs |
 | [Reddit](https://redditinc.com/careers) | https://redditinc.com/careers |
+| [Remote4Me](remote4me.com) | https://remote4me.com |
+| [RemoteCrew](remotecrew.io) | https://remotecrew.io |
+| [RemoteHabits](remotehabits.com) | https://remotehabits.com |
 | [Remote OK](https://remoteok.com/) | https://remoteok.com/ |
+| [Remote OK](remoteok.io) | https://remoteok.io |
 | [Remote Rocketship](https://www.remoterocketship.com/) | https://www.remoterocketship.com/ |
 | [Remote.co](https://remote.co/) | https://remote.co/ |
 | [RemoteWoman](https://remotewoman.com/) | https://remotewoman.com/ |
@@ -167,8 +173,10 @@ Last updated: 2026-09-24 15:37 UTC
 | Site | URL |
 | --- | --- |
 | [Salesforce](https://www.salesforce.com/company/careers/) | https://www.salesforce.com/company/careers/ |
+| [SimplyHired](simplyhired.com) | https://simplyhired.com |
 | [ServiceNow](https://careers.servicenow.com/) | https://careers.servicenow.com/ |
 | [Shopify](https://www.shopify.com/careers) | https://www.shopify.com/careers |
+| [SkipTheDrive](skipthedrive.com) | https://skipthedrive.com |
 | [Stripe](https://stripe.com/en-ca/careers) | https://stripe.com/en-ca/careers |
 
 ## T
@@ -176,6 +184,7 @@ Last updated: 2026-09-24 15:37 UTC
 | Site | URL |
 | --- | --- |
 | [Talent.com](https://ca.talent.com/) | https://ca.talent.com/ |
+| [TaskRabbit](taskrabbit.com) | https://taskrabbit.com |
 | [Todoist](https://www.todoist.com/careers) | https://www.todoist.com/careers |
 | [Toptal](https://www.toptal.com/) | https://www.toptal.com/ |
 | [Turing](https://www.turing.com/) | https://www.turing.com/ |
@@ -186,6 +195,7 @@ Last updated: 2026-09-24 15:37 UTC
 | Site | URL |
 | --- | --- |
 | [Upwork](https://www.upwork.com/) | https://www.upwork.com/ |
+| [User Interviews](userinterviews.com) | https://userinterviews.com |
 
 ## V
 
@@ -215,3 +225,4 @@ Last updated: 2026-09-24 15:37 UTC
 | Site | URL |
 | --- | --- |
 | [Zapier](https://zapier.com/jobs) | https://zapier.com/jobs |
+| [ZoomBucks](zoombucks.com) | https://zoombucks.com |
