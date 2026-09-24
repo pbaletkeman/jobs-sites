@@ -17,8 +17,8 @@
 | [Amazon.jobs](https://amazon.jobs/en/teams/aws) | https://amazon.jobs/en/teams/aws |
 | [Andela](https://www.andela.com/) | https://www.andela.com/ |
 | [Arc](https://arc.dev/) | https://arc.dev/ |
-| [Ashby](https://www.ashbyhq.com/) | https://www.ashbyhq.com/ |
 | [Asana](https://asana.com/jobs) | https://asana.com/jobs |
+| [Ashby](https://www.ashbyhq.com/) | https://www.ashbyhq.com/ |
 | [Atlassian](https://www.atlassian.com/comnpany/careers) | https://www.atlassian.com/comnpany/careers |
 | [Automattic](https://automattic.com/work-with-us/) | https://automattic.com/work-with-us/ |
 
@@ -33,8 +33,8 @@
 
 | Site | URL |
 | --- | --- |
-| [Career Vault](https://www.usebraintrust.com/) | https://www.usebraintrust.com/ |
 | [Canonical](https://canonical.com/careers) | https://canonical.com/careers |
+| [Career Vault](https://www.usebraintrust.com/) | https://www.usebraintrust.com/ |
 | [Cisco](https://careers.cisco.com/global/en/home) | https://careers.cisco.com/global/en/home |
 | [ClickUp](https://clickup.com/careers) | https://clickup.com/careers |
 | [Cloudflare](https://www.cloudflare.com/careers/) | https://www.cloudflare.com/careers/ |
@@ -49,8 +49,8 @@
 | --- | --- |
 | [DailyRemote](https://dailyremote.com/) | https://dailyremote.com/ |
 | [Deel](https://www.deel.com/careers/) | https://www.deel.com/careers/ |
-| [DigitalOcean](https://www.digitalocean.com/careers) | https://www.digitalocean.com/careers |
 | [Dice.com](https://www.dice.com/) | https://www.dice.com/ |
+| [DigitalOcean](https://www.digitalocean.com/careers) | https://www.digitalocean.com/careers |
 
 ## E
 
@@ -76,14 +76,14 @@
 | [GitLab](https://about.gitlab.com/jobs/all-jobs/) | https://about.gitlab.com/jobs/all-jobs/ |
 | [Google](https://www.google.com/about/careers/applications/) | https://www.google.com/about/careers/applications/ |
 | [Greenhouse](https://www.greenhouse.com/) | https://www.greenhouse.com/ |
-| [Guru.com](https://www.guru.com/) | https://www.guru.com/ |
 | [Gun.io](https://gun.io/) | https://gun.io/ |
+| [Guru.com](https://www.guru.com/) | https://www.guru.com/ |
 
 ## H
 
 | Site | URL |
 | --- | --- |
-| [Hashicorp](https://www.hashicorp.com/en/careers) | https://www.hashicorp.com/en/ca |
+| [Hashicorp](https://www.hashicorp.com/en/careers) | https://www.hashicorp.com/en/careers |
 | [Himalayas](https://himalayas.app/) | https://himalayas.app/ |
 | [Hub Staff Talent](https://hubstafftalent.net/) | https://hubstafftalent.net/ |
 
